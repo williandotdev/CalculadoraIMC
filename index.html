@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seu Imc agora</title>
+    <!--==================Style============-->
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet"> 
+    
+  </head>
+  <body>
+    <header>
+      <a href="#calculadora" class="logo">Calcule Seu <span>IMC</span></a>
+      <ul>
+        <li><a href="#oque">O que é?</a></li>
+        <li><a href="#nrec">Não recomendados.</a></li>
+        <li><a href="#class">Classificação</a></li>
+        <li><a href="#container">calculadora</a></li>
+      </ul>
+    </header>
+    <main>
+      <div id="info1">
+        <div id="contend1">
+        <h2 id="oque">
+          O que é o IMC?
+        </h2><br>
+        <p>
+          O Índice de Massa Corporal, conhecido pela sigla IMC, é um cálculo simples que permite medir se alguém está ou não com o peso ideal. Muitas pessoas buscam descobrir seu IMC quando iniciam uma dieta específica ou uma atividade física. E estão certas, pois ele aponta a normalidade peso adequado, a magreza ou a obesidade em diferentes níveis.
+        </p><br>
+      </div>
+        <img src="imagens/imcImage.jpg" alt="imcImage">
+      </div>
+      <div id="info2">
+        <div id="contend2">
+        <h2 id="nrec">
+          Casos não recomendados.
+        </h2><br>
+        <p>
+          Ao calcular o IMC, é importantíssimo levar em consideração se a pessoa é um atleta, uma criança ou um idoso. No caso de uma pessoa que pratica musculação, por exemplo, o IMC pode muitas vezes não ser verdadeiro. O índice não pode ser interpretado do mesmo jeito que de uma pessoa sedentária, que provavelmente tem o índice de gordura muito maior. Então essa é uma crítica que se faz a usar o Índice de Massa Corporal de forma indiscriminada.
+        </p><br>
+        </div>
+        <div id="img2">
+          <img src="imagens/imcErro.jpg" alt="imagemImcErro">
+        </div>
+      </div>
+      <div id="classi">
+        <h2 id="class">
+          Classificação do IMC:
+        </h2><br>
+        <p>
+          - Menor que 16 - Magreza grave <br>
+          - 16 a menor que 17 - Magreza moderada <br>
+          - 17 a menor que 18,5 - Magreza leve <br>
+          - 18,5 a menor que 25 - Saudável <br>
+          - 25 a menor que 30 - Sobrepeso <br>
+          - 30 a menor que 35 - Obesidade Grau I <br>
+          - 35 a menor que 40 - Obesidade Grau II (considerada severa)<br> 
+          - Maior que 40 - Obesidade Grau III (considerada mórbida)
+        </p>
+        
+      </div>
+      <div class="container" id="container">
+        <form >
+          <p>Calculadora Imc</p>
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" placeholder="Seu nome aqui" class="dados" id="nome"/><br>  
+          <label for="email">E-mail:</label>            
+          <input type="email" name="email" placeholder="Seu melhor email aqui." class="dados" id="email"/><br>   
+          <label for="peso">Peso:</label>          
+          <input type="text" name="peso" placeholder="Seu peso aqui" class="dados" id="peso"/><br>
+          <label for="altura">Altura:</label>
+          <input type="text" name="altura" placeholder="Sua altura aqui" class="dados" id="altura"/><br> 
+          <input type="button" id="button" value="Calcular" onclick="validar()"><br>
+        </form>
+      </div>
+    </main>
+    
+  </body>
+</html>

@@ -7,7 +7,7 @@ function validar() {
     alert('Nome não informado')
     nome.focus()
     return false
-  } else if (email == '') {
+  } else if (email == '') { 
     alert('Email não informado')
     return false
   } else if (peso == '') {
@@ -27,7 +27,7 @@ function calc() {
   var docp = Number(peso.value)
   var doca = Number(altura.value)
   var docaa = doca / 100
-  var imcx = docp / docaa ** 2
+  var imcx = docp / doca ** 2
   var imc = imcx.toFixed(2)
 
   alert(`Seu imc é ${imc}`)

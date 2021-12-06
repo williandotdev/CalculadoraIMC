@@ -30,24 +30,26 @@ function calc() {
   var imcx = docp / doca ** 2
   var imc = imcx.toFixed(2)
 
-  alert(`Seu imc é ${imc}`)
+  // alert(`Seu imc é ${imc}`)
+  
   
   if (imc < 18.5) {
-    res.innerHTML = `Seu imc é ${imc} e é considerado Baixo Peso`
+    alert(`Seu imc é ${imc} e é considerado Baixo Peso`)
   }
   if (imc >= 18.5 && imc < 24.9) {
-    res.innerHTML = `Seu imc é ${imc} e é considerado Peso Normal`
+    alert(`Seu imc é ${imc} e é considerado Peso Normal`)
   }
   if (imc >= 25 && imc < 29.9) {
-    res.innerHTML = `Seu imc é ${imc} e é considerado Sobrepeso`
+    alert(`Seu imc é ${imc} e é considerado Sobrepeso`)
   }
   if (imc >= 30 && imc < 34.9) {
-    res.innerHTML = `Seu imc é ${imc} e é considerado Obesidade(Grau I)`
+    alert(`Seu imc é ${imc} e é considerado Obesidade(Grau I)`)
   }
   if (imc >= 35 && imc < 39.9) {
-    res.innerHTML = `Seu imc é ${imc} e é considerado Obesidade Severa(Grau II)`
+    alert(`Seu imc é ${imc} e é considerado Obesidade Severa(Grau II)`)
   }
   if (imc >= 40) {
-    res.innerHTML = `Seu imc é ${imc} e é considerado Obesidade Mórbita(Grau III)`
+    alert(`Seu imc é ${imc} e é considerado Obesidade Mórbita(Grau III)`)
   }
+  
 }

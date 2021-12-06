@@ -210,6 +210,8 @@ label{
   .container img{
     margin-top: 3rem;
     margin-left: 10vh;
+    height: auto;
+    width: 50vh;
   }
   
 }

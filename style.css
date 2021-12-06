@@ -208,11 +208,10 @@ label{
     height: auto;
   }
   .container img{
-    margin-top: 3rem;
-    margin-left: 10%;
-    height: auto;
     width: 50vh;
-    visibility: 0;
+    height: auto;
+    margin-top: 2rem;
+    margin-left: 1vh;
   }
   
 }

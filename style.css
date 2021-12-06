@@ -212,6 +212,7 @@ label{
     margin-left: 10%;
     height: auto;
     width: 50vh;
+    visibility: 0;
   }
   
 }

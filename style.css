@@ -14,7 +14,8 @@ body{
 section{
     display: grid;
     place-content: center;
-    height: min(100vh, auto);
+    min-height: 100vh;
+    height: auto;
     padding: 5rem;
 }
 section.calculator{

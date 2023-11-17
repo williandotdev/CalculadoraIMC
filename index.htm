@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Imc</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/js/script.js" defer type="module"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="calculator">
+
+        <div class="alert-error"><p>Digite somente números</p></div>
+        <main class="card">
+                <form action="">
+                    <h1>Cálculo IMC</h1>
+                    <ul>
+                        <li>
+                            <label for="weigth">Peso (Kg):</label>
+                            <input type="text" id="weight" name="weight" placeholder="60">
+        
+                        </li>
+                        <li>
+                            <label for="height">Altura (cm):</label> 
+                            <input type="text" id="height" name="height" placeholder="165">
+                        </li>
+                    </ul>
+                    <button type="submit" class="buttonSubmit">
+                        Calcular IMC
+                        <img src="./assets/arrow-up-right.svg" alt="seta direita" srcset="">
+                    </button>
+                </form>
+        </main>
+        <div class="modal-wrapper ">
+            <div class="modal card">
+                <button class="close"><img src="./assets/close.svg" alt="Botão para fechar PopUp" srcset=""></button>
+                <h2>Seu Imc é de X.</h2>
+            </div>
+        </div>
+    </section>
+        
+    <section>
+        <article class="card">
+                <div class="block">
+                    <h1>Calculadora de IMC Online</h1>
+                    <p>Sua ferramenta confiável para avaliação rápida do Índice de Massa Corporal.</p>
+                </div>
+
+                <div class="block" id="introducao">
+                    <h2>O que é IMC?</h2>
+                    <p>O Índice de Massa Corporal (IMC) é uma métrica crucial para entender sua saúde.</p>
+                    <p>Use nossa calculadora para obter uma visão imediata de como seu peso e altura estão interconectados, fornecendo insights valiosos sobre seu estado físico.</p>
+                </div>
+
+                <div class="block" id="como-usar">
+                    <h2>Como usar nossa Calculadora de IMC</h2>
+                    <ol>
+                        <li>Insira seu peso em quilogramas no campo designado.</li>
+                        <li>Insira sua altura em centímetros no campo correspondente.</li>
+                        <li>Clique no botão "Calcular IMC".</li>
+                        <li>Receba instantaneamente seu IMC e a categoria de peso correspondente.</li>
+                    </ol>
+                </div>
+
+                <div class="block" id="interpretacao">
+                    <h2>Interpretação do IMC</h2>
+                    <p>Abaixo de 18,5: Abaixo do peso</p>
+                    <p>18,5 - 24,9: Peso saudável</p>
+                    <p>25,0 - 29,9: Sobrepeso</p>
+                    <p>30,0 - 34,9: Obesidade grau I</p>
+                    <p>35,0 - 39,9: Obesidade grau II</p>
+                    <p>40,0 e acima: Obesidade grau III (obesidade mórbida)</p>
+                </div>
+
+                <div class="block" id="por-que-usar">
+                    <h2>Por que usar nossa Calculadora de IMC?</h2>
+                    <ul>
+                        <li>Rápida e Precisa: Resultados instantâneos para uma avaliação imediata.</li>
+                        <li>Acesso em Qualquer Lugar: Use a calculadora em dispositivos móveis para praticidade.</li>
+                        <li>Informações Detalhadas: Obtenha insights sobre seu peso e riscos potenciais à saúde.</li>
+                    </ul>
+                </div>
+
+                <div class="block" id="importancia-imc">
+                    <h2>Importância do IMC para sua Saúde</h2>
+                    <p>Manter um IMC saudável é vital para prevenir doenças cardíacas, diabetes e outros problemas de saúde.</p>
+                    <p>Utilize nossa calculadora como um ponto de partida, mas sempre consulte um profissional de saúde para uma análise personalizada.</p>
+                </div>
+
+                <div class="block"  id="dicas-saudaveis">
+                    <h2>Dicas para um Estilo de Vida Saudável</h2>
+                    <ol>
+                        <li>Alimentação Balanceada: Escolha alimentos nutritivos para apoiar sua saúde.</li>
+                        <li>Exercícios Regulares: Mantenha-se ativo para uma vida ativa e saudável.</li>
+                        <li>Hidratação Essencial: Beba água suficiente para otimizar seu funcionamento corporal.</li>
+                        <li>Descanso Adequado: Priorize um sono de qualidade para o bem-estar global.</li>
+                    </ol>
+                </div>
+
+        
+        
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2023 Calculadora de IMC Online - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
